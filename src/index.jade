@@ -1,0 +1,222 @@
+doctype html
+html
+
+  head
+
+  meta(charset="utf-8")
+
+  meta(http-equiv="X-UA-Compatible", content="IE=edge")
+
+  title Hello World
+
+  meta(name="description", content="Hello World")
+
+  meta(name="viewport", content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui")
+
+  link(rel="stylesheet", href="assets/styles/main.css", type="text/css")
+  link(rel="stylesheet", href="assets/styles/portfolio.css", type="text/css")
+  link(rel="stylesheet", href="assets/styles/about.css", type="text/css")
+  link(rel="stylesheet", href="assets/styles/contact.css", type="text/css")
+  link(rel="stylesheet", href="assets/fonts/stylesheet.css", type="text/css", charset="utf-8")
+  link(rel="stylesheet", href="assets/fonts/stylesheet2.css", type="text/css", charset="utf-8")
+  
+  body
+
+    div.wrapper
+        
+      div#topsection
+  
+        ul.nav
+  
+          li.home: a(href="/") Home
+  
+          li.portfolio: a(href="/portfolio") Portfolio
+          
+          li.about: a(href="/about") About
+          
+          li.abouttwo: a(href="/about") About
+          
+          li.contact: a(href="/contact") Contact
+          
+        div#social
+            
+          ul.socialmedia
+            
+            li: a(href="/")
+                  img(alt=":o", src='../assets/images/linkedin.png')
+              
+            li: a(href="/")
+                  img(alt=":o", src='../assets/images/github.png')
+                    
+            li: a(href="/")
+                  img(alt=":o", src='../assets/images/dribbble.png')
+                  
+        div#header
+          img(alt=":o", src='../assets/images/blackcircle.png')
+          h1 YOYOYO
+          h2 By Dmitry Issajenko
+            
+    
+      div.body
+      
+    footer.footer
+
+      p Copyright Dmitry Issajenko &copy; 2014
+
+  // -----------------------------
+  // Templates
+  // -----------------------------
+
+  script#home(type="text/template").
+    <div class="indexmain">
+      <div id="me">
+        <div class="meheader">
+          <h1>Me</h1>
+        </div>
+        <div class="memain"><img alt=":o" src="../assets/images/eve.png"></div>
+      </div>
+      <div id="whatsnew">
+        <div class="whatsnewheader">
+          <h1>What's New</h1>
+        </div>
+        <div class="temp"></div>
+        <div class="whatsnewmain">
+          <article class="posts">
+            <h3>New Site Design</h3>
+            <p class="authordate">Dmitry Issajenko | December 10, 2014 11:10am</p>
+            <p class="post">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+            <!--img(alt=":o", src='../assets/images/greytriangle.png')-->
+          </article>
+        </div>
+      </div>
+      <div id="featured">
+        <div class="featuredheader">
+          <h1>Featured Projects</h1>
+        </div>
+        <div class="featuredprojectone"></div>
+        <div class="featuredprojecttwo"></div>
+      </div>
+    </div>
+    
+  script#portfolio(type="text/template").
+    
+    <div class="wrapper">
+      <div class="main">
+        <div class="header">
+          <h1>Projects</h1>
+        </div>
+        <div id="portfoliogallery">
+          <div class="project">
+            <div class="title">
+              <p>Misery Index Website</p>
+            </div>
+            <div class="projectone"></div>
+          </div>
+          <div class="project">
+            <div class="title">
+              <p>Working Women Website</p>
+            </div>
+            <div class="projecttwo"></div>
+          </div>
+          <div class="project">
+            <div class="title">
+              <p>Malian Rhythm Mobile App</p>
+            </div>
+            <div class="projectthree"></div>
+          </div>
+          <div class="project">
+            <div class="title">
+              <p>InterCoach Mobile App</p>
+            </div>
+            <div class="projectfour"></div>
+          </div>
+          <div class="project">
+            <div class="title">
+              <p>Deforestation Web Infographic</p>
+            </div>
+            <div class="projectfive"></div>
+          </div>
+          <div class="project">
+            <div class="title">
+              <p>Website</p>
+              <div class="projectsix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+              
+              
+
+  script#about(type="text/template").
+    <div class="main">
+        <div class="header">
+          <h1>About</h1>
+        </div>
+        <div id="aboutsection">
+          <div id="nameheader">
+            <h3> <span class="whitecolour">Dmitry </span>Issajenko</h3><img alt=":o" src="../assets/images/eveabout.png">
+          </div>
+          <div id="redsection">
+            <h2>A little about me...</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+          </div>
+          <div id="blacksection">
+            <h2>and what I do...</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  script#contact(type="text/template").
+    <div class="main">
+        <div class="header">
+          <h1 class="contactheader">Contact</h1>
+        </div>
+        <div id="contact">
+          <div class="redmsgsection">
+            <h2>Want me to work on your next project/idea?</h2>
+            <div class="sendme">
+              <h3>Send me a message...</h3><img alt=":o" src="../assets/images/whitetriangle.png">
+            </div>
+          </div>
+          <div class="blackformsection">
+            <form action="/my-handling-form-page" method="post" class="contactform">
+              <div class="nameandlabel">
+                <label for="name" class="name">Name:</label>        
+                <input type="text">    
+              </div>
+              <div class="emailandlabel">
+                <label for="mail" class="email">E-mail:</label>        
+                <input type="email">    
+              </div>
+              <div class="messagetextarea">
+                <label for="msg">Message:</label>        
+                <textarea></textarea>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  // -----------------------------
+  // Libraries
+  // -----------------------------
+
+  script(type="text/javascript", src="//code.jquery.com/jquery-2.1.1.min.js")
+
+  script(type="text/javascript", src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore.js")
+
+  script(type="text/javascript", src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js")
+
+  script(type="text/javascript", src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js")
+
+
+  // -----------------------------
+  // Application
+  // -----------------------------
+
+  script(type="text/javascript", src="assets/scripts/main.js")

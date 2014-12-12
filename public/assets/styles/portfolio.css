@@ -1,0 +1,188 @@
+/* line 10, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+body {
+  width: 1080px;
+  padding: 0 10px 0 10px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: 'Calibri' sans-serif; }
+
+/* line 17, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #555; }
+
+/* line 23, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+h1 {
+  font-family: "daysregular" sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  margin: 0; }
+
+/* line 32, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+.header, .main, .footer {
+  width: 100%;
+  display: block;
+  clear: both;
+  float: left; }
+
+/* line 41, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+#topsection {
+  width: 100%;
+  height: 88px; }
+  /* line 46, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+  #topsection .nav {
+    margin: 0;
+    padding: 0;
+    width: 66.66667%;
+    height: 88px;
+    float: left;
+    font-family: 'candara' sans-serif;
+    font-size: 16px; }
+    /* line 55, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    #topsection .nav li.home, #topsection .nav .portfolio, #topsection .nav .about, #topsection .nav .abouttwo, #topsection .nav .contact {
+      height: 88px;
+      margin: 0;
+      padding: 0;
+      display: block;
+      float: left;
+      list-style: none; }
+    /* line 63, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    #topsection .nav .home {
+      width: 37.5%;
+      margin: 0;
+      padding: 0;
+      background-color: #9e2121; }
+    /* line 69, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    #topsection .nav .portfolio {
+      width: 16.94444%;
+      margin: 0;
+      padding: 0;
+      background-color: #aa2424; }
+    /* line 75, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    #topsection .nav .about {
+      width: 14.16667%;
+      background-color: #b62828; }
+    /* line 79, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    #topsection .nav .abouttwo {
+      width: 14.16667%;
+      background-color: #c22c2c; }
+    /* line 83, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    #topsection .nav .contact {
+      width: 17.22222%;
+      background-color: #cf3030; }
+    /* line 87, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    #topsection .nav a {
+      padding: 60px 20px 0 0;
+      color: white;
+      text-decoration: none;
+      float: right; }
+  /* line 94, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+  #topsection #social {
+    width: 31.48148%;
+    height: 88px;
+    float: left;
+    background-color: #323232; }
+    /* line 101, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    #topsection #social .socialmedia {
+      padding-top: 32px; }
+      /* line 104, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+      #topsection #social .socialmedia li {
+        display: inline-block;
+        list-style: none; }
+        /* line 110, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+        #topsection #social .socialmedia li a img {
+          margin-right: 10px; }
+  /* line 113, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+  #topsection #header {
+    width: 98.14815%;
+    height: 59px;
+    background-color: #2a2a2a;
+    float: left; }
+    /* line 119, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    #topsection #header h1 {
+      padding: 7px 0 0 90px; }
+    /* line 122, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    #topsection #header h2 {
+      font-family: "daysregular" sans-serif;
+      color: #777;
+      font-size: 15px;
+      margin: 0;
+      padding-left: 90px; }
+    /* line 129, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    #topsection #header img {
+      float: left;
+      margin-left: -10px; }
+
+/* line 134, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+.main {
+  width: 98.14815%;
+  padding: 50px 0 0 0; }
+  /* line 138, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+  .main .header {
+    width: 100%;
+    height: 42px;
+    background-color: #ededed;
+    margin: 0 0 25px 0; }
+    /* line 144, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    .main .header h1 {
+      color: #323232;
+      font-size: 25px;
+      padding: 6px 0 0 10px; }
+  /* line 149, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+  .main #portfoliogallery {
+    width: 100%; }
+    /* line 152, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+    .main #portfoliogallery .project {
+      width: 31.48148%;
+      height: 232px;
+      float: left;
+      padding: 0 1.85185% 21px 0; }
+      /* line 159, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+      .main #portfoliogallery .project .projectone, .main #portfoliogallery .project .projecttwo, .main #portfoliogallery .project .projectthree, .main #portfoliogallery .project .projectfour, .main #portfoliogallery .project .projectfive, .main #portfoliogallery .project .projectsix {
+        height: 188px; }
+      /* line 163, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+      .main #portfoliogallery .project .title {
+        width: 100%;
+        height: 44px;
+        background-color: #323232; }
+        /* line 168, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+        .main #portfoliogallery .project .title p {
+          font-family: 'Calibri' sans-serif;
+          font-size: 18px;
+          color: white;
+          padding: 11px 0 0 10px;
+          margin: 0; }
+      /* line 175, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+      .main #portfoliogallery .project .projectone {
+        background-image: url("../images/miseryindexproject.jpg"); }
+      /* line 178, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+      .main #portfoliogallery .project .projecttwo {
+        background-image: url("../images/wwccthumb.jpg"); }
+      /* line 181, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+      .main #portfoliogallery .project .projectthree {
+        background-image: url("../images/malianthumb.jpg"); }
+      /* line 184, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+      .main #portfoliogallery .project .projectfour {
+        background-image: url("../images/intercoachthumb.jpg"); }
+      /* line 187, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+      .main #portfoliogallery .project .projectfive {
+        background-image: url("../images/deforestationthumb.jpg"); }
+      /* line 190, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+      .main #portfoliogallery .project .projectsix {
+        background-image: url("../images/miseryindexproject.jpg"); }
+
+/* line 198, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+.footer {
+  width: 100%;
+  height: 65px;
+  margin: 200px 0 0 0;
+  background-color: #323232; }
+  /* line 204, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/portfolio.sass */
+  .footer p {
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-size: 12px;
+    text-align: center; }

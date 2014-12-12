@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hello World</title>
+  <meta name="description" content="Hello World">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+  <link rel="stylesheet" href="assets/styles/contact.css" type="text/css">
+  <link rel="stylesheet" href="assets/fonts/stylesheet.css" type="text/css" charset="utf-8">
+  <link rel="stylesheet" href="assets/fonts/stylesheet2.css" type="text/css" charset="utf-8">
+  <body>
+    <div class="wrapper">
+      <div id="topsection">
+        <ul class="nav">
+          <li class="home"><a href="/">Home</a></li>
+          <li class="portfolio"><a href="/portfolio">Portfolio</a></li>
+          <li class="about"><a href="/about">About</a></li>
+          <li class="abouttwo"><a href="/about">About</a></li>
+          <li class="contact"><a href="/contact">Contact</a></li>
+        </ul>
+        <div id="social">
+          <ul class="socialmedia">
+            <li><a href="/"><img alt="LinkedIn" src="../assets/images/linkedin.png"></a></li>
+            <li><a href="/"><img alt="GitHub" src="../assets/images/github.png"></a></li>
+            <li><a href="/"><img alt="Dribbble" src="../assets/images/dribbble.png"></a></li>
+          </ul>
+        </div>
+        <div id="header"><img alt=":o" src="../assets/images/blackcircle.png">
+          <h1>Front End Web Development and Design</h1>
+          <h2>By Dmitry Issajenko</h2>
+        </div>
+      </div>
+      <div class="main">
+        <div class="header">
+          <h1 class="contactheader">Contact</h1>
+        </div>
+        <div id="contact">
+          <div class="redmsgsection">
+            <h2>Want me to work on your next project/idea?</h2>
+            <div class="sendme">
+              <h3>Send me a message...</h3><img alt=":o" src="../assets/images/whitetriangle.png">
+            </div>
+          </div>
+          <div class="blackformsection">
+            <form action="/my-handling-form-page" method="post" class="contactform">
+              <div class="nameandlabel">
+                <label for="name" class="name">Name:</label>        
+                <input type="text">    
+              </div>
+              <div class="emailandlabel">
+                <label for="mail" class="email">E-mail:</label>        
+                <input type="email">    
+              </div>
+              <div class="messagetextarea">
+                <label for="msg">Message:</label>        
+                <textarea></textarea>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Copyright &copy; 2014</p>
+    </footer>
+  </body>
+  <!-- ------------------------------->
+  <!-- Templates-->
+  <!-- ------------------------------->
+  <script id="home" type="text/template">
+    <div class="page home">{{{content}}}</div>
+    
+  </script>
+  <script id="portfolio" type="text/template">
+    <div class="page portfolio">{{{content}}}</div>
+    
+  </script>
+  <script id="about" type="text/template">
+    <div class="page about">{{{content}}}</div>
+    
+  </script>
+  <script id="contact" type="text/template">
+    <div class="page contact">{{{content}}}</div>
+    
+  </script>
+  <!-- ------------------------------->
+  <!-- Libraries-->
+  <!-- ------------------------------->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+  <!-- ------------------------------->
+  <!-- Application-->
+  <!-- ------------------------------->
+  <script type="text/javascript" src="assets/scripts/main.js"></script>
+</html>

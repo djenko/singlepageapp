@@ -1,0 +1,234 @@
+/* line 10, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+body {
+  width: 1080px;
+  padding: 0 10px 0 10px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-family: 'Calibri' sans-serif;
+  color: #292929; }
+
+/* line 18, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #555; }
+
+/* line 23, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+h1 {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'daysregular' sans-serif;
+  text-transform: uppercase;
+  color: white;
+  margin: 0; }
+
+/* line 32, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+.header, .main, .footer {
+  width: 100%;
+  display: block;
+  clear: both;
+  float: left; }
+
+/* line 41, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+#topsection {
+  width: 100%;
+  height: 88px; }
+  /* line 46, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+  #topsection .nav {
+    margin: 0;
+    padding: 0;
+    width: 66.66667%;
+    height: 88px;
+    float: left;
+    font-family: 'candara' sans-serif;
+    font-size: 16px; }
+    /* line 55, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    #topsection .nav li.home, #topsection .nav .portfolio, #topsection .nav .about, #topsection .nav .abouttwo, #topsection .nav .contact {
+      height: 88px;
+      margin: 0;
+      padding: 0;
+      display: block;
+      float: left;
+      list-style: none; }
+    /* line 63, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    #topsection .nav .home {
+      width: 37.5%;
+      margin: 0;
+      padding: 0;
+      background-color: #9e2121; }
+    /* line 69, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    #topsection .nav .portfolio {
+      width: 16.94444%;
+      margin: 0;
+      padding: 0;
+      background-color: #aa2424; }
+    /* line 75, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    #topsection .nav .about {
+      width: 14.16667%;
+      background-color: #b62828; }
+    /* line 79, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    #topsection .nav .abouttwo {
+      width: 14.16667%;
+      background-color: #c22c2c; }
+    /* line 83, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    #topsection .nav .contact {
+      width: 17.22222%;
+      background-color: #cf3030; }
+    /* line 87, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    #topsection .nav a {
+      padding: 60px 20px 0 0;
+      color: white;
+      text-decoration: none;
+      float: right; }
+  /* line 94, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+  #topsection #social {
+    width: 31.48148%;
+    height: 88px;
+    float: left;
+    background-color: #323232; }
+    /* line 101, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    #topsection #social .socialmedia {
+      padding-top: 32px; }
+      /* line 104, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+      #topsection #social .socialmedia li {
+        display: inline-block;
+        list-style: none; }
+        /* line 110, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+        #topsection #social .socialmedia li a img {
+          margin-right: 10px; }
+  /* line 113, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+  #topsection #header {
+    width: 98.14815%;
+    height: 59px;
+    background-color: #2a2a2a;
+    float: left; }
+    /* line 119, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    #topsection #header h1 {
+      font-family: "daysregular" sans-serif;
+      text-transform: uppercase;
+      font-size: 20px;
+      padding: 7px 0 0 90px; }
+    /* line 124, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    #topsection #header h2 {
+      font-family: "daysregular" sans-serif;
+      color: #777;
+      font-size: 15px;
+      margin: 0;
+      padding-left: 90px; }
+    /* line 130, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    #topsection #header img {
+      float: left;
+      margin-left: -10px; }
+
+/* line 135, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+.indexmain {
+  width: 100%;
+  padding: 96px 0 0 0; }
+  /* line 139, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+  .indexmain h1 {
+    padding: 13px 0 0 10px; }
+  /* line 142, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+  .indexmain #me {
+    width: 14.81481%;
+    padding: 0 1.85185% 0 0;
+    float: left; }
+    /* line 147, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    .indexmain #me .meheader {
+      width: 100%;
+      height: 44px;
+      background-color: #858585; }
+    /* line 153, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    .indexmain #me .memain {
+      width: 100%;
+      height: 306px;
+      background-color: #9e9e9e; }
+      /* line 158, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+      .indexmain #me .memain img {
+        margin: 10px 0 0 16px; }
+  /* line 161, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+  .indexmain #whatsnew {
+    width: 48.14815%;
+    padding: 0;
+    float: left; }
+    /* line 166, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    .indexmain #whatsnew .whatsnewheader {
+      width: 30.76923%;
+      background-color: #a4a4a4;
+      height: 44px;
+      float: left; }
+    /* line 173, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    .indexmain #whatsnew .temp {
+      width: 66.1%;
+      height: 44px;
+      border-left-width: 8px;
+      border-left-color: #b62828;
+      border-left-style: solid;
+      border-right-width: 8px;
+      border-right-color: #b62828;
+      border-right-style: solid;
+      float: left; }
+    /* line 186, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    .indexmain #whatsnew .whatsnewmain {
+      position: relative;
+      width: 100%;
+      height: 306px;
+      background-color: #dbdbdb;
+      clear: both; }
+      /* line 193, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+      .indexmain #whatsnew .whatsnewmain .posts {
+        width: 100%; }
+        /* line 196, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+        .indexmain #whatsnew .whatsnewmain .posts h3 {
+          font-family: 'DIN Condensed' sans-serif;
+          color: #4e4e4e;
+          font-size: 30px;
+          margin: 0;
+          padding: 16px 0 0 12px; }
+        /* line 203, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+        .indexmain #whatsnew .whatsnewmain .posts .authordate {
+          background-color: white;
+          padding: 3px 0 3px 0;
+          color: #2a2a2a;
+          font-size: 12px;
+          margin: 6px 0 0 0;
+          padding: 3px 0 3px 12px; }
+        /* line 211, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+        .indexmain #whatsnew .whatsnewmain .posts .post {
+          line-height: 180%;
+          padding: 0 12px 0 12px; }
+  /* line 217, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+  .indexmain #featured {
+    width: 31.48148%;
+    padding: 0 0 0 1.85185%;
+    float: left; }
+    /* line 222, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    .indexmain #featured .featuredheader {
+      width: 73.52941%;
+      height: 44px;
+      background-color: #2a2a2a; }
+    /* line 228, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    .indexmain #featured .featuredprojectone {
+      width: 100%;
+      height: 108px;
+      background-color: #323232;
+      background-image: url("../images/workingwomenproject.jpg");
+      margin: 0 0 10px 0; }
+    /* line 236, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+    .indexmain #featured .featuredprojecttwo {
+      width: 100%;
+      height: 188px;
+      background-color: #323232;
+      background-image: url("../images/miseryindexproject.jpg"); }
+
+/* line 243, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+.footer {
+  width: 100%;
+  height: 65px;
+  margin: 200px 0 0 0;
+  background-color: #323232; }
+  /* line 249, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/index.sass */
+  .footer p {
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-size: 12px;
+    text-align: center; }

@@ -1,0 +1,240 @@
+/* line 10, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+body {
+  width: 1080px;
+  padding: 0 10px 0 10px;
+  margin: 0 auto; }
+
+/* line 15, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+p {
+  font-size: 13px;
+  font-family: 'Century Gothic' sans-serif;
+  color: white;
+  line-height: 200%; }
+
+/* line 21, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #555; }
+
+/* line 26, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+h1 {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'daysregular' sans-serif;
+  text-transform: uppercase;
+  color: white;
+  margin: 0; }
+
+/* line 34, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+h2 {
+  font-family: 'DIN Condensed' sans-serif;
+  font-size: 50px;
+  color: white;
+  margin: 0; }
+
+/* line 41, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+.header, .main, .footer {
+  width: 100%;
+  display: block;
+  clear: both;
+  float: left; }
+
+/* line 50, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+#topsection {
+  width: 100%;
+  height: 88px; }
+  /* line 55, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+  #topsection .nav {
+    margin: 0;
+    padding: 0;
+    width: 66.66667%;
+    height: 88px;
+    float: left;
+    font-family: 'candara' sans-serif;
+    font-size: 16px; }
+    /* line 64, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    #topsection .nav li.home, #topsection .nav .portfolio, #topsection .nav .about, #topsection .nav .abouttwo, #topsection .nav .contact {
+      height: 88px;
+      margin: 0;
+      padding: 0;
+      display: block;
+      float: left;
+      list-style: none; }
+    /* line 72, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    #topsection .nav .home {
+      width: 37.5%;
+      margin: 0;
+      padding: 0;
+      background-color: #9e2121; }
+    /* line 78, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    #topsection .nav .portfolio {
+      width: 16.94444%;
+      margin: 0;
+      padding: 0;
+      background-color: #aa2424; }
+    /* line 84, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    #topsection .nav .about {
+      width: 14.16667%;
+      background-color: #b62828; }
+    /* line 88, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    #topsection .nav .abouttwo {
+      width: 14.16667%;
+      background-color: #c22c2c; }
+    /* line 92, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    #topsection .nav .contact {
+      width: 17.22222%;
+      background-color: #cf3030; }
+    /* line 96, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    #topsection .nav a {
+      padding: 60px 20px 0 0;
+      color: white;
+      text-decoration: none;
+      float: right; }
+  /* line 103, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+  #topsection #social {
+    width: 31.48148%;
+    height: 88px;
+    float: left;
+    background-color: #323232; }
+    /* line 110, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    #topsection #social .socialmedia {
+      padding-top: 32px; }
+      /* line 113, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+      #topsection #social .socialmedia li {
+        display: inline-block;
+        list-style: none; }
+        /* line 119, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+        #topsection #social .socialmedia li a img {
+          margin-right: 10px; }
+  /* line 122, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+  #topsection #header {
+    width: 98.14815%;
+    height: 59px;
+    background-color: #2a2a2a;
+    float: left; }
+    /* line 128, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    #topsection #header h1 {
+      font-family: "daysregular" sans-serif;
+      text-transform: uppercase;
+      font-size: 20px;
+      padding: 7px 0 0 90px; }
+    /* line 134, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    #topsection #header h2 {
+      font-family: "daysregular" sans-serif;
+      color: #777;
+      font-size: 15px;
+      margin: 0;
+      padding-left: 90px; }
+    /* line 141, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    #topsection #header img {
+      float: left;
+      margin-left: -10px; }
+
+/* line 146, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+.main {
+  width: 98.14815%;
+  padding: 50px 0 0 0; }
+  /* line 150, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+  .main .header {
+    width: 100%;
+    height: 42px;
+    background-color: #ededed;
+    margin: 0 0 70px 0; }
+  /* line 156, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+  .main .contactheader {
+    color: #323232;
+    font-size: 25px;
+    padding: 6px 0 0 10px; }
+  /* line 161, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+  .main #contact {
+    width: 100%; }
+    /* line 164, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    .main #contact .redmsgsection {
+      width: 55%;
+      height: 228px;
+      float: left;
+      background-color: #cd3330;
+      border-radius: 7px; }
+      /* line 171, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+      .main #contact .redmsgsection h2 {
+        margin: 15px 0 0 20px;
+        width: 390px; }
+      /* line 175, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+      .main #contact .redmsgsection .sendme {
+        position: relative;
+        width: 100%;
+        height: 47px;
+        background-color: white;
+        margin: 17px 0 0 0; }
+        /* line 182, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+        .main #contact .redmsgsection .sendme h3 {
+          font-family: 'DIN Condensed' sans-serif;
+          font-size: 30px;
+          color: black;
+          margin: 0;
+          padding: 10px 0 0 20px; }
+        /* line 189, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+        .main #contact .redmsgsection .sendme img {
+          position: absolute;
+          z-index: 5;
+          right: 12px;
+          top: 0; }
+    /* line 196, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+    .main #contact .blackformsection {
+      position: relative;
+      width: 49%;
+      height: 340px;
+      float: right;
+      background-color: #323232;
+      border-radius: 7px;
+      margin-top: -228px; }
+      /* line 205, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+      .main #contact .blackformsection .contactform {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 23px; }
+        /* line 210, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+        .main #contact .blackformsection .contactform label {
+          font-family: 'Century Gothic' sans-serif;
+          font-size: 14px;
+          color: white; }
+        /* line 215, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+        .main #contact .blackformsection .contactform .nameandlabel, .main #contact .blackformsection .contactform .emailandlabel {
+          width: 100%;
+          height: 35px;
+          float: left; }
+          /* line 221, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+          .main #contact .blackformsection .contactform .nameandlabel input, .main #contact .blackformsection .contactform .emailandlabel input {
+            width: 245px;
+            height: 35px;
+            float: right;
+            margin-right: 70px; }
+        /* line 227, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+        .main #contact .blackformsection .contactform .nameandlabel, .main #contact .blackformsection .contactform .emailandlabel, .main #contact .blackformsection .contactform .messagetextarea {
+          margin-bottom: 17px; }
+        /* line 230, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+        .main #contact .blackformsection .contactform .messagetextarea {
+          width: 100%;
+          height: 188px; }
+          /* line 235, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+          .main #contact .blackformsection .contactform .messagetextarea label {
+            float: left; }
+          /* line 238, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+          .main #contact .blackformsection .contactform .messagetextarea textarea {
+            width: 315px;
+            height: 187px;
+            float: right; }
+
+/* line 256, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+.footer {
+  width: 100%;
+  height: 65px;
+  margin: 200px 0 0 0;
+  background-color: #323232; }
+  /* line 262, /home/ubuntu/workspace/spa-boilerplate/src/assets/styles/contact.sass */
+  .footer p {
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-size: 12px;
+    text-align: center; }
